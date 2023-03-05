@@ -16,7 +16,7 @@ const app = express();
   });
   await server.start();
 
-app.use('/graphql',  json(), expressMiddleware(server));
-app.listen(3000)
+  app.use('/graphql',  json(), expressMiddleware(server));
+  app.listen(3000)
 })()
 

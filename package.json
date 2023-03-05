@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Fr0sne/graphql-prismaio.git",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch --ignore node_modules ./src/index.ts --transpile-only"
+  },
   "devDependencies": {
     "tsup": "^6.6.3",
     "tsx": "^3.12.3",
